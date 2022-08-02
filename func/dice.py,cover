@@ -1,0 +1,8 @@
+> from .sample import roll_dice
+  
+> def guess_number(num): #3 , #2
+>     result = roll_dice() #2
+>     if result == num:
+>         return "you win"
+>     else:
+>         return "you lost"
